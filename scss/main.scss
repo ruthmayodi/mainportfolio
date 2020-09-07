@@ -181,6 +181,51 @@ main {
   color: #333;
 }
 
+#contact-form{
+	background-color: var(--secondaryColor);
+	box-shadow: var(--secondaryShadow);
+	border-radius: var(--secondaryRadius);
+	display: block;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: var(--secondaryColor);
+	margin-bottom: 50px;
+}
+
+#contact-form label{
+	line-height: 2.7em;
+}
+
+#contact-form textarea{
+	min-height: 100px;
+	background: var(--secondaryColor);
+	box-shadow: var(--inputField);
+}
+
+.input-field{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: var(--secondaryColor);
+	border-radius: 5px;
+	border: none;
+	font-size: 14px;
+	box-shadow: var(--inputField);
+}
+
+#submit-btn{
+	margin-top: 10px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: var(--buttonColor);
+	border: none;
+}
+
+
 #main-footer {
   text-align: center;
   padding: 1rem;
