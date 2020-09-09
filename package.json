@@ -6,7 +6,7 @@
   "homepage": "https://ruthmayodi.ninja",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "netlify -d dist"
   },
   "author": "Ruth Mayodi",
   "license": "MIT",
