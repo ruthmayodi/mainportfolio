@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #000;
+    background: #fff;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #929c96;
+    background: #373737;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #9fa8a3;
+    background: #444;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -57,14 +57,14 @@
       height: 250px;
       background: url("../img/smallprofile.jpeg");
       border-radius: 50%;
-      border: solid 3px #c5d5cb; }
+      border: solid 3px #d896d8; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #c5d5cb; }
+      color: #d896d8; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -72,11 +72,11 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #c5d5cb; }
+      color: #d896d8; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -94,8 +94,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #9fa8a3;
-  color: #000;
+  background: #444;
+  color: #fff;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -112,7 +112,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(159, 168, 163, 0.7); }
+      background: rgba(68, 68, 68, 0.7); }
 
 h1,
 h2,
@@ -128,7 +128,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(164, 173, 168, 0.5); }
+    background: rgba(73, 73, 73, 0.5); }
 
 a {
   color: #fff;
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #c5d5cb; }
+  color: #d896d8; }
 
 main {
   padding: 4rem;
@@ -151,7 +151,7 @@ main {
       padding: 0.4rem;
       transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #c5d5cb; }
+        color: #d896d8; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -166,7 +166,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #c5d5cb 3px solid; }
+    border: #d896d8 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -177,9 +177,9 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #acb4b0;
+    background: #515151;
     padding: 0.5rem;
-    border-bottom: #c5d5cb 5px solid; }
+    border-bottom: #d896d8 5px solid; }
 
 .projects {
   display: grid;
@@ -190,7 +190,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #c5d5cb;
+      border-color: #d896d8;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -207,7 +207,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #c5d5cb;
+      background: #d896d8;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -218,15 +218,15 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #c5d5cb;
+    background: #d896d8;
     color: #000; }
 
 .btn-dark {
-  background: #222624;
+  background: black;
   color: #fff; }
 
 .btn-light {
-  background: white;
+  background: #c4c4c4;
   color: #333; }
 
 #contact-form {
@@ -237,7 +237,6 @@ main {
   max-width: 600px;
   margin: 0 auto;
   padding: 15px;
-  background-color: var(--secondaryColor);
   margin-bottom: 50px; }
 
 #contact-form label {
@@ -245,14 +244,14 @@ main {
 
 #contact-form textarea {
   min-height: 100px;
-  background: var(--secondaryColor);
+  background: #fff;
   box-shadow: var(--inputField); }
 
 .input-field {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: var(--secondaryColor);
+  background-color: #fff;
   border-radius: 5px;
   border: none;
   font-size: 14px;
@@ -265,14 +264,14 @@ main {
   padding-bottom: 10px;
   border-radius: 5px;
   color: #fff;
-  background-color: var(--buttonColor);
+  background-color: #d896d8;
   border: none; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #849089;
-  color: #000;
+  background: #2b2b2b;
+  color: #fff;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
